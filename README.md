@@ -2,6 +2,19 @@
 
 *A completely reworked school project, originally based on the tutorial series ["Chess Engine in Python" by Eddie Sharick](https://www.youtube.com/watch?v=EnYui0e73Rs&list=PLBwF487qi8MGU81nDGaeNE1EnNEPYWKY_).*
 
+> [!WARNING]
+> **Project Archived**
+> 
+> This project is no longer actively maintained.
+> 
+> **Context:**  
+> This repository holds a special place in my history as my very first serious programming project from school. Years later, upon rediscovering the original source code, I faced a dilemma: it was too valuable as a personal milestone to simply delete, yet I was hesitant to publish it on GitHub in its original, beginner-level state. 
+> 
+> To resolve this, I decided to completely reimagine and rebuild the idea from scratch, applying modern Python practices, robust architecture, and the tools I have mastered since. This repository now serves as a unique time capsule, presenting the modernized rewrite alongside the original `legacy` code to document my growth as a developer.
+> 
+> **Reason for Archiving:**  
+> Having successfully served its purpose as a comprehensive learning milestone and architectural exercise, I no longer have an interest in further maintaining this codebase. For a detailed explanation of the project's scope, deliberate design choices, and known limitations, please refer to the [End of Journey](#end-of-journey) section below.
+
 ## Brief Overview
 
 This project implements complete chess rules logic using the [python-chess](https://github.com/niklasf/python-chess) library, paired with a custom graphical user interface built on [pygame-ce](https://github.com/pygame-community/pygame-ce) and [pygame-gui](https://github.com/MyreMylar/pygame_gui). Configuration is cleanly managed via [Pydantic Settings](https://github.com/pydantic/pydantic-settings). Additionally, it features deep integration with the powerful [Stockfish](https://stockfishchess.org/) engine, allowing you to play either against the computer or locally with a friend.
